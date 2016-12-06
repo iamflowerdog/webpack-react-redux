@@ -3,9 +3,7 @@ import {connect} from 'react-redux';
 import {Button} from 'antd';
 import 'less/common.less';
 var mapStateToProps = function(state){
-	return {
-		myRequest: state.myRequest,
-	}
+
 };
 
 class PageExchange extends React.Component{
@@ -32,7 +30,6 @@ class PageExchange extends React.Component{
 
 	render() {
 		let showContent = this.state.showContent;
-		const { myRequest } = this.props;
 		return (
 			<div className='main'>
 	    		<div className='content'>

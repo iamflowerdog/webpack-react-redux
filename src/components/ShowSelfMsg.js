@@ -3,9 +3,7 @@ import {connect} from 'react-redux';
 import {Button} from 'antd';
 import 'less/common.less';
 var mapStateToProps = function(state){
-	return {
-		myRequest: state.myRequest,
-	}
+	
 };
 
 class ShowSelfMsg extends React.Component{
