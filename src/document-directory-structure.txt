@@ -1,0 +1,16 @@
+webapp     //根目录
+    |--actions  //本工程actions集合
+    |--modules  //本工程的入口模块
+    |--components //本工程相关组件模块
+      |--pub //公共模块组件
+      |--*** //各业务的模块，建议创建文件夹放置本业务的相关组件
+    |--reducers //本工程reducres集合
+    |--stores   //本工程stores集合
+    |--styles   //本工程styles集合
+      |--css    //所有css文件
+      |--fonts  //iconfont文件
+      |--less   //less文件
+    |--utils //本工程工具方法集合
+    |--constants //本工程常量集合
+    |
+    //文件夹名需要小写
