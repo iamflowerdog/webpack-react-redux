@@ -3,7 +3,7 @@
 	    |--actions     // 存放当前触发Redux的动作行为
 	    |--components  // 存放工程内部的公共组件
 	    |--modules     // 存放工程各模块代码
-	    |--pages       // 存放主页面及框架结构等
+	    |--constants   // action动作常量
 	    |--reducers    // 存放reducer函数，用来修改store状态
 	    |--routes      // 放置页面路由 react router
 	    |--stores      // 放置stores配置文件
