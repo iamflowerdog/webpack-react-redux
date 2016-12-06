@@ -2,7 +2,6 @@
   "name": "demo1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "reg-cn":"npm config set registry https://registry.npm.taobao.org",
     "reg-clear":"npm config delete registry",
