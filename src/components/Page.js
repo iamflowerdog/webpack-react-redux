@@ -47,6 +47,7 @@ class Page extends React.Component{
 		this.props.form.validateFields((err, values) => {
 	      if (!err) {//表单符合标准
 	        //values 为当前父页面的数据，接下来获取子页面的数据
+	        this.setState({childState: true});
 	        this.setState({childState: true}, function() {
 	        	const { extendStore } = self.props;
 	        	values.extendData = extendStore && extendStore.data || extendStore;
@@ -67,12 +68,12 @@ class Page extends React.Component{
         });
 		return (
 			<div style={{marginTop: 50, width: 600, marginLeft: 'auto', marginRight: 'auto'}}>
-				<Form onSubmit={this.handleSubmit}>
+				<Form>
 			      <FormItem {...{labelCol: { span: 6 }, wrapperCol: { span: 14 }}} label="父级文本: ">
 			      	<Input {...inputProps} id='inputText' type='text'/>
 			      </FormItem>
 			      <FormItem wrapperCol={{ span: 12, offset: 6 }}>
-		          	<Button type="primary" htmlType="submit">提交</Button>
+		          	<Button type="primary" onClick={this.handleSubmit}>提交</Button>
 		       	  </FormItem>
 			    </Form>
 

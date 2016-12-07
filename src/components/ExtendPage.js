@@ -29,12 +29,12 @@ class ExtendPage extends React.Component{
  	}
 
 	saveExtendData() {
-        this.props.callBack();//保存成功后，更改父页面的childState的状态
 		this.props.form.validateFields((err, values) => {
 	      if (!err) {//表单符合标准
 	        console.log('save ExtendPage values: ' + JSON.stringify(values));
 	        const {dispatch} = this.props;
 	        dispatch(saveExtendDataAction(values));
+	        this.props.callBack();//保存成功后，更改父页面的childState的状态
 	      }
     	});
 	}

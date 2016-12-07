@@ -28,6 +28,7 @@ export default (
     <Route path="/extend" component={Extend} />
     /*页面切换*/
     <Route path="/pageExchange" component={PageExchange} />
+    <Route path="/childDemoPage(/:parentPageMsg)" component={ChildPage}/>
     /*页面渲染显示信息*/
     <Route path="/showSelfMsg" component={ShowSelfMsg} />
     /*模拟前后台交互*/

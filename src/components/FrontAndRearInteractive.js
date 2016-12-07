@@ -30,8 +30,10 @@ class FrontAndRearInteractive extends React.Component{
 
 	componentWillReceiveProps(nextProps) {
 	    const { myRequest } = nextProps;
-	    if(myRequest.code && myRequest.msg)
+	    if(myRequest.code && myRequest.msg) {
 	    	alert('请求结果：code=' + myRequest.code + ', msg=' + myRequest.msg);
+	    	myRequest.msg = null;
+	    }
 	}
 
 	render() {

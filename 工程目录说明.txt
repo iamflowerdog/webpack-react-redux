@@ -1,15 +1,15 @@
 |--demo1
-	|--src  //Ô´Âë
-	    |--actions     // ´æ·Åµ±Ç°´¥·¢ReduxµÄ¶¯×÷ĞĞÎª
-	    |--components  // ´æ·Å¹¤³ÌÄÚ²¿µÄ¹«¹²×é¼ş
-	    |--modules     // ´æ·Å¹¤³Ì¸÷Ä£¿é´úÂë
-	    |--constants   // action¶¯×÷³£Á¿
-	    |--reducers    // ´æ·Åreducerº¯Êı£¬ÓÃÀ´ĞŞ¸Ästore×´Ì¬
-	    |--routes      // ·ÅÖÃÒ³ÃæÂ·ÓÉ react router
-	    |--stores      // ·ÅÖÃstoresÅäÖÃÎÄ¼ş
-	    |--main.js	   // Èë¿Újs
-	|--index.html  // ¹¤³ÌÈë¿ÚÎÄ¼şhtml
-    |--node_modules  // ´æ·ÅÒÀÀµµÄµÚÈı·½Ä£¿é¿â,Ê¹ÓÃÃüÁî npm install
-    |--build  //´ò°üÎÄ¼ş´æ·ÅµÄÄ¿Â¼
+	|--src  //æºç 
+	    |--actions     // å­˜æ”¾å½“å‰è§¦å‘Reduxçš„åŠ¨ä½œè¡Œä¸º
+	    |--components  // å­˜æ”¾å·¥ç¨‹å†…éƒ¨çš„å…¬å…±ç»„ä»¶
+	    |--modules     // å­˜æ”¾å·¥ç¨‹å„æ¨¡å—ä»£ç 
+	    |--constants   // actionåŠ¨ä½œå¸¸é‡
+	    |--reducers    // å­˜æ”¾reducerå‡½æ•°ï¼Œç”¨æ¥ä¿®æ”¹storeçŠ¶æ€
+	    |--routes      // æ”¾ç½®é¡µé¢è·¯ç”± react router
+	    |--stores      // æ”¾ç½®storesé…ç½®æ–‡ä»¶
+	    |--main.js	   // å…¥å£js
+	|--index.html  // å·¥ç¨‹å…¥å£æ–‡ä»¶html
+    |--node_modules  // å­˜æ”¾ä¾èµ–çš„ç¬¬ä¸‰æ–¹æ¨¡å—åº“,ä½¿ç”¨å‘½ä»¤ npm install
+    |--build  //æ‰“åŒ…æ–‡ä»¶å­˜æ”¾çš„ç›®å½•
     |--webpack.config.js
     |--package.json	
