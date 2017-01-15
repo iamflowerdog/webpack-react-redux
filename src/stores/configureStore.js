@@ -7,7 +7,6 @@ import rootReducer from '../reducers';
 
 console.log(rootReducer)
 /**
- * @author dio
  * 配置状态容器
  * @param initialState 初始化状态
  * @returns {*}
